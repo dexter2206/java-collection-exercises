@@ -7,6 +7,7 @@
 - napisać metodę statyczną, która scali k posortowanych list
 - zygzakiem nazwiemy listę, w które elementy są na przemian większe lub mniejsze od siebie. Na przykład lista 5,2,10,3,8 jest zygzakiem, a nie jest nim lista 5,2,10,11 bo 2 < 10 < 11. Napisać metodę statyczną, która przearanżuje podaną jako parametr listę liczb tak, że będzie ona zygzakiem.
 - napisać metodę statyczną, która w ustawi liczby w zadanej liście tak, że wszystkie elementy parzyte znajdą się przed nieparzystymi. Czy można to zrobić tak, że porządek wśród list parzystych i nieparzystych się nie zmienił?
+- napisać metodę statyczną która "rozpłaszczy zagnieżdżone listy" - czyli utworzy jedną listę powstałą przez połączenie list składowych.
 
 ## Zadania związane ze zbiorami
 - [Isogramy](http://exercism.io/exercises/java/isogram/readme)
