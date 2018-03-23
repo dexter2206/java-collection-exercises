@@ -9,7 +9,7 @@
         <module name="java-collection-exercises" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
       <module name="java-collection-exercises" target="1.5" />
     </bytecodeTargetLevel>
   </component>
