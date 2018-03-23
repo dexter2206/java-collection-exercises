@@ -17,5 +17,6 @@
 - [translacja protein](http://exercism.io/exercises/java/protein-translation/readme)
 - napisać program konwertujący wyrażenie z notacji infixowej do ONP
 - napisać program konwertujący wyrażenie z notacji ONP do notacji infixowej
+- napisać klasę służącą do obliczania wyrazów ciągu Fibonacciego (unikając zbędnych obliczeń).
 
 
