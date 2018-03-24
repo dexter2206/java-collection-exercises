@@ -7,12 +7,12 @@ import java.util.ListIterator;
 
 public class MergeTwoLists {
 
-    public static List<Comparable> mergeLists(List<Comparable> first, List<Comparable> second) {
-        List<Comparable> result = new LinkedList<>();
-        ListIterator<Comparable> itFirst = first.listIterator(), itSecond = second.listIterator();
+    public static <T extends Comparable> List<T> mergeLists(List<T> first, List<T> second) {
+        List<T> result = new LinkedList<>();
+        ListIterator<T> itFirst = first.listIterator(), itSecond = second.listIterator();
 
-        Comparable item1 = itFirst.hasNext() ? itFirst.next() : null;
-        Comparable item2 = itSecond.hasNext() ? itSecond.next(): null;
+        T item1 = itFirst.hasNext() ? itFirst.next() : null;
+        T item2 = itSecond.hasNext() ? itSecond.next(): null;
 
         while(item1 != null & item2 != null) {
             if(item1.compareTo(item2) <= 0) {
