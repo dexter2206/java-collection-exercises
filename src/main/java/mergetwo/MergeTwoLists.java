@@ -32,7 +32,7 @@ public class MergeTwoLists {
             result.add(item2);
         }
 
-        // at most only one of those will actually do something
+        // Tylko jedno z tych zrobi cokolwiek
         itFirst.forEachRemaining(result::add);
         itSecond.forEachRemaining(result::add);
         return result;

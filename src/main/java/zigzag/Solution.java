@@ -11,6 +11,7 @@ public class Solution {
         if(lst.size() <= 2) {
             return;
         }
+
         Comparable x, y;
         int order;
         ListIterator<Comparable> itFirst = lst.listIterator(), itSecond = lst.listIterator();
@@ -18,7 +19,11 @@ public class Solution {
 
         x = itFirst.next();
         y = itSecond.next();
+
         order = x.compareTo(y);
+        if(order == 0) {
+            order = 1;
+        }
 
         while(itSecond.hasNext()) {
             x = itFirst.next();
